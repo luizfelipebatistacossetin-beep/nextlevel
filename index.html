@@ -13,7 +13,187 @@
   <!-- Domínio do site (também em src/config.js, robots.txt e sitemap.xml) -->
   <link rel="canonical" href="https://agencianextlevelbr.vercel.app/" />
   <meta property="og:site_name" content="Next Level" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Next Level","alternateName":["Agência Next Level","Next Level Xinguara"],"url":"https://agencianextlevelbr.vercel.app/"}</script>
+  <!-- Dados estruturados (schema.org / JSON-LD) -->
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://agencianextlevelbr.vercel.app/#empresa",
+        "name": "Next Level",
+        "alternateName": [
+          "Agência Next Level",
+          "Next Level Xinguara",
+          "nextlevel"
+        ],
+        "description": "Agência de marketing e vendas em Xinguara – PA: inteligência artificial no atendimento, implantação de CRM, gestão comercial, tráfego pago e estratégia para empresas de todo o Pará e região.",
+        "url": "https://agencianextlevelbr.vercel.app/",
+        "logo": "https://agencianextlevelbr.vercel.app/favicon-192.png",
+        "image": "https://agencianextlevelbr.vercel.app/og-image.png",
+        "telephone": "+55-94-9232-7017",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Xinguara",
+          "addressRegion": "PA",
+          "addressCountry": "BR"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Xinguara"
+          },
+          {
+            "@type": "State",
+            "name": "Pará"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/nex.tlevelbr/"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+55-94-9232-7017",
+          "contactType": "customer service",
+          "availableLanguage": "Portuguese",
+          "areaServed": "BR"
+        },
+        "knowsAbout": [
+          "Marketing digital",
+          "Tráfego pago",
+          "Inteligência artificial",
+          "CRM",
+          "Gestão comercial",
+          "Vendas",
+          "Estratégia de crescimento"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Serviços da Next Level",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Marketing digital e tráfego pago",
+                "description": "Anúncios no Instagram, Facebook e Google pensados para gerar conversa de venda, não só curtida."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Inteligência artificial aplicada a vendas",
+                "description": "Assistentes que atendem no WhatsApp a qualquer hora, respondem dúvidas e separam quem está pronto para comprar."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Implantação de CRM e funil de vendas",
+                "description": "Cada contato registrado, cada negociação com próximo passo definido. Nada mais se perde na conversa."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Gestão comercial e indicadores",
+                "description": "Metas claras, rotina de acompanhamento e números que mostram onde agir na semana."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Treinamento e estruturação do time",
+                "description": "Seu time vendendo com método: abordagem, contorno de objeções e acompanhamento depois da proposta."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Consultoria estratégica de crescimento",
+                "description": "Para quem quer abrir mercado, lançar produto ou crescer sem perder o controle da operação."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://agencianextlevelbr.vercel.app/#site",
+        "name": "Next Level",
+        "alternateName": [
+          "Agência Next Level",
+          "Next Level Xinguara"
+        ],
+        "url": "https://agencianextlevelbr.vercel.app/",
+        "inLanguage": "pt-BR",
+        "publisher": {
+          "@id": "https://agencianextlevelbr.vercel.app/#empresa"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://agencianextlevelbr.vercel.app/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Vocês atendem só Xinguara?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. Nossa base é em Xinguara e atendemos presencialmente a cidade e a região sul e sudeste do Pará. Para empresas de outras cidades e estados, todo o trabalho pode ser feito online, com reuniões por vídeo e acompanhamento pelo WhatsApp."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Preciso já ter um CRM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. Se você ainda não usa, ajudamos a escolher a ferramenta certa para o tamanho da sua operação e fazemos a implantação completa. Se já usa, organizamos o que existe e colocamos para funcionar de verdade."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como a inteligência artificial funciona no meu atendimento?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Configuramos um assistente que responde no WhatsApp com as informações do seu negócio, tira as dúvidas mais comuns, faz as perguntas de qualificação e passa para o vendedor os contatos prontos para comprar. Você define o tom, o que ele pode responder e quando chamar uma pessoa."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Em quanto tempo vejo resultado?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depende do ponto de partida e do serviço. Ajustes no atendimento e a organização do funil costumam aparecer nas primeiras semanas; marketing e estratégia de crescimento são trabalhos de médio prazo. No diagnóstico combinamos metas e prazos realistas para o seu caso."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vocês atendem empresas pequenas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. As soluções são montadas de acordo com o tamanho e o orçamento de cada empresa, começando pelo que traz retorno mais rápido."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como funciona o diagnóstico gratuito?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "É uma conversa, presencial ou online, em que entendemos como sua empresa atrai, atende e vende hoje. No fim, você recebe os principais pontos de melhoria e uma sugestão de próximos passos, sem compromisso de contratação."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:title" content="Next Level | Marketing, vendas, IA e CRM em Xinguara – PA" />
@@ -2029,8 +2209,6 @@ function initLinks() {
 
   const ano = document.getElementById("ano");
   if (ano) ano.textContent = new Date().getFullYear();
-
-  injectSchema();
 }
 
 function injectSchema() {
