@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap do site
+Sitemap: https://agencianextlevelbr.vercel.app/sitemap.xml
